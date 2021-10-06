@@ -1,0 +1,22 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.main-block {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
