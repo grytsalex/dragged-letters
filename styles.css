@@ -20,3 +20,7 @@ input:focus::placeholder {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+.letter {
+    font-size: 48px;
+}
