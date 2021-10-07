@@ -9,9 +9,11 @@ applyBtn.addEventListener("click", () => {
     let arrayOfLetters = inputValue.split("");
     
     arrayOfLetters.map((value) => {
+        if(value == " ") return;
+        
        let letterSpan = document.createElement("span");
        letterSpan.classList.add("letters-span");
-       
+
        letterSpan.innerHTML = value;
        textContainer.appendChild(letterSpan);
     })   
