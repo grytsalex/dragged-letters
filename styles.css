@@ -21,6 +21,8 @@ input:focus::placeholder {
     transform: translate(-50%, -50%);
 }
 
-.letter {
+.letters-span {
     font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(102,126,234,1) 0%, rgba(118,75,162,1) 100%);
 }
