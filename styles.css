@@ -29,6 +29,10 @@ input:focus::placeholder {
     display: inline-block;
 }
 
+span:hover {
+    background: yellow;
+}
+
 .text-container {
     margin-top: 12px;
     cursor: pointer;
