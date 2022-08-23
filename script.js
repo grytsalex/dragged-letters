@@ -24,8 +24,6 @@ applyBtn.addEventListener("click", function () {
     textContainer.appendChild(letterSpan);
 
     letterSpan?.addEventListener("click", function (e) {
-      getCoordinates(e.clientX, e.clientY);
-
       letterSpan.classList.add("clicked");
 
       function onMouseMove(e) {
